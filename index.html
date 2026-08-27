@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite E-Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🗳 Elite E-Voting System</h1>
+
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Candidates">Candidates</a>
+        <a href="#Results">Results</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to the Secure Online Voting Portal</h2>
+    <p>Vote once. Vote securely. Your voice matters.</p>
+</section>
+
+<section class="vote-section">
+
+<h2>Select Your Candidate</h2>
+
+<div class="candidates">
+
+<div class="card">
+<img src="images (1).jpeg">
+<h3>Vladmir Puttin</h3>
+<button onclick="vote('Vladimir Puttin')">Vote</button>
+</div>
+
+<div class="card">
+<img src="images (2).jpeg">
+<h3>Kim Jong Un</h3>
+<button onclick="vote('Kim Jong Un')">Vote</button>
+</div>
+
+<div class="card">
+<img src="images.jpeg">
+<h3>Kanyewest</h3>
+<button onclick="vote('Kanyewest')">Vote</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="results">
+
+<h2>Live Results</h2>
+
+<p>John Doe:
+<span id="john">0</span></p>
+
+<p>Jane Smith:
+<span id="jane">0</span></p>
+
+<p>Mark Elvis:
+<span id="mark">0</span></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
